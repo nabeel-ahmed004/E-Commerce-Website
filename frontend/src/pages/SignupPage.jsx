@@ -15,7 +15,6 @@ function SignUpPage() {
   const [avatar, setAvatar] = useState(null);
   const navigate = useNavigate;
   const handleSubmit = (e) => {
-    console.log("jsx");
 
     e.preventDefault();
     const config = { headers: { "Content-Type": "multipart/form-data" } };
